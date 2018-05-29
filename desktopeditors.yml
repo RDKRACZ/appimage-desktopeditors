@@ -8,7 +8,7 @@ ingredients:
   dist: trusty
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ trusty main universe
-    - deb http://download.onlyoffice.com/repo/debian squeeze main
+    - deb [trusted=yes] http://repo-doc-onlyoffice-com.s3.amazonaws.com/ubuntu/trusty/onlyoffice-desktopeditors//latest/amd64/ repo/
 
 script:
   - cat > ./usr/share/applications/desktopeditors.desktop <<\EOF
