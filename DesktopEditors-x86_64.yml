@@ -2,7 +2,6 @@ app: desktopeditors
 
 ingredients:
   packages:
-    - kde-baseapps-bin
     - libcurl3
     - libcurl3-gnutls
     - libgconf2-4
